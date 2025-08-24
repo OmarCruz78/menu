@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Albergue Ollantaytambo - Restaurante</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>El Albergue Ollantaytambo</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul id="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#carta">Carta</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>El restaurante <strong>Ollantaytambo Station</strong> se inauguró en 1925. Nuestro menú se inspira en ingredientes andinos tradicionales, preparados con productos frescos de nuestra granja orgánica y con procesos artesanales que celebran la cultura local.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre el Restaurante</h2>
+    <p>Ofrecemos almuerzos y cenas en horarios de <strong>12:00 PM - 3:00 PM</strong> y <strong>6:00 PM - 9:00 PM</strong>. Nuestro compromiso es con la sostenibilidad, la tradición y la frescura, llevando la experiencia andina a cada plato.</p>
+  </section>
+
+  <section id="carta">
+    <h2>Nuestra Carta</h2>
+
+    <h3>Entradas</h3>
+    <ul class="menu-list">
+      <li>Tiradito de trucha y fruta pasión <span class="price">S/ 41</span></li>
+      <li>Carpaccio de alpaca <span class="price">S/ 39</span></li>
+      <li>Anticucho de pollo y/o verduras <span class="price">S/ 31</span></li>
+      <li>Ceviche de trucha <span class="price">S/ 47</span></li>
+      <li>Chicharrón de pollo <span class="price">S/ 31</span></li>
+    </ul>
+
+    <h3>Ensaladas</h3>
+    <ul class="menu-list">
+      <li>De la huerta <span class="price">S/ 34</span></li>
+      <li>Rocoto Huancaína <span class="price">S/ 34</span></li>
+      <li>Carnaval <span class="price">S/ 34</span></li>
+    </ul>
+
+    <h3>Pastas, arroces y gnocchis</h3>
+    <ul class="menu-list">
+      <li>Pesto andino <span class="price">S/ 47</span></li>
+      <li>Puttanesca del jardín con chorizo <span class="price">S/ 47</span></li>
+      <li>Hortalizas a la parrilla <span class="price">S/ 47</span></li>
+    </ul>
+
+    <h3>Platos principales</h3>
+    <ul class="menu-list">
+      <li>Pollo con salsa de zucchini y setas <span class="price">S/ 54</span></li>
+      <li>Trucha a la plancha <span class="price">S/ 56</span></li>
+      <li>Hamburguesa de alpaca <span class="price">S/ 41</span></li>
+      <li>Locro de zapallitos <span class="price">S/ 42</span></li>
+      <li>Cuy Fiesta <span class="price">S/ 95</span></li>
+      <li>Trío Andino <span class="price">S/ 97</span></li>
+    </ul>
+
+    <h3>Cócteles</h3>
+    <ul class="menu-list">
+      <li>Wari <span class="price">S/ 28</span></li>
+      <li>Pukachi <span class="price">S/ 26</span></li>
+      <li>Quillabandida <span class="price">S/ 28</span></li>
+      <li>Matacuy Sour <span class="price">S/ 30</span></li>
+      <li>Negroni Andino <span class="price">S/ 32</span></li>
+    </ul>
+
+    <h3>Café Mayu & Bebidas</h3>
+    <ul class="menu-list">
+      <li>Espresso <span class="price">S/ 7</span></li>
+      <li>Americano <span class="price">S/ 10</span></li>
+      <li>Cappuccino <span class="price">S/ 12</span></li>
+      <li>Café Latte <span class="price">S/ 12</span></li>
+      <li>Chocolate <span class="price">S/ 14</span></li>
+    </ul>
+
+    <h3>Experiencia Pachamanca</h3>
+    <p>Únete a nuestro <strong>Almuerzo Pachamanca</strong> servido en la granja de El Albergue. Una experiencia culinaria única que incluye visita a la destilería y tostadora de café.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Reservas y Contacto</h2>
+    <p>📍 Ollantaytambo Station, Valle Sagrado, Cusco</p>
+    <p>📧 <a href="mailto:reservas@elalbergue.com">reservas@elalbergue.com</a></p>
+    <p>📞 (+51) 084 204 014</p>
+    <p>⏰ Horario: 12:00 PM - 3:00 PM / 6:00 PM - 9:00 PM</p>
+  </section>
+
+  <footer>
+    <p>© 2025 El Albergue Ollantaytambo</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
+
